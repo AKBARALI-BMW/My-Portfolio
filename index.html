@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Owl Carousel CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+
+    <!-- Owl Carousel CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Bali.com</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home-section">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-section">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resume-section">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services-section">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills-section">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects-section">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog-section">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-section">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+<!-- Carousel Section Start -->
+<section id="home-section" class="hero">
+  <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+      <div class="carousel-inner">
+          
+          <!-- Slide 1 (Text Left, Image Right) -->
+          <div class="carousel-item active">
+              <div class="container">
+                  <div class="row align-items-center">
+                      <div class="col-md-6    text-left">
+                          <div class="carousel-text animate__animated animate__fadeInLeft">
+                              <span class="subheading">Hello!</span>
+                              <h1>I'm <span>Akbar Ali</span></h1>
+                              <h2>A Freelance Web Developer</h2>
+                              <p>
+                                  <a href="#" class="btn btn-primary">Hire me</a>
+                                  <a href="#" class="btn btn-outline-light">My works</a>
+                              </p>
+                          </div>
+                      </div>
+                      <div class="col-md-6 ">
+                        <img  style="width: 90%; height: 100vh;" src="./Image/bg_profile.png" class="img-fluid full-width-image animate__animated animate__fadeInRight" alt="Akbar Ali">
+                    </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Slide 2 (Text Right, Image Left) -->
+          <div class="carousel-item">
+              <div class="container">
+                  <div class="row align-items-center">
+                      <div class="col-md-6 order-md-2 text-left">
+                          <div class="carousel-text animate__animated animate__fadeInRight">
+                              <span class="subheading">Hello!</span>
+                              <h1>I'm a <span>Web Developer</span> based in Swat</h1>
+                              <p>
+                                  <a href="#" class="btn btn-primary">Hire me</a>
+                                  <a href="#" class="btn btn-outline-light">My works</a>
+                              </p>
+                          </div>
+                      </div>
+                      <div class="col-md-6 order-md-1">
+                          <img style="height: 100vh;" src="./Image/About_image2.png" class="img-fluid animate__animated animate__fadeInLeft" alt="Web Developer">
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Slide 3 (Text Left, Image Right) -->
+          <div class="carousel-item">
+              <div class="container">
+                  <div class="row align-items-center">
+                      <div class="col-md-6 text-left">
+                          <div class="carousel-text animate__animated animate__fadeInLeft">
+                              <span class="subheading">Passionate Coder</span>
+                              <h1>Specializing in <span>Front-End Development</span></h1>
+                              <p>
+                                  <a href="#" class="btn btn-primary">Hire me</a>
+                                  <a href="#" class="btn btn-outline-light">My works</a>
+                              </p>
+                          </div>
+                      </div>
+                      <div class="col-md-6">
+                          <img src="./Image/men.webp" class="img-fluid animate__animated animate__fadeInRight" alt="Front-End Developer">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!-- Carousel Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+  </div>
+</section>
+<!-- Carousel Section End -->
+
+
+    <!-- About section start  -->
+
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+      <div class="container">
+        <div class="row d-flex">
+          <!-- Image Column -->
+          <div class="col-md-6 col-lg-5 d-flex">
+            <div class="img-about img d-flex align-items-stretch">
+              <div class="overlay"></div>
+              <div class="img d-flex align-self-stretch align-items-center"> 
+              <img  style="height: 50rem;  border-radius: 10px; background-size: cover; background-position: center; background-repeat: no-repeat;" class="img-fluid" src="./Image/about_image.png" alt="">
+            </div>
+            </div>
+          </div>
+
+          <!-- Content Column -->
+          <div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+            <div class="row justify-content-start pb-3">
+              <div class="col-md-12 heading-section ftco-animate">
+                <h1 class="big">About</h1>
+                <h2 class="mb-4">About Me</h2>
+                <p>
+                  A highly motivated Computer Science student with extensive web
+                  development and programming experience. Skilled in HTML, CSS,
+                  JavaScript, and WordPress. Completed custom-coded websites
+                  including a labor link construction system, school management
+                  system, and network chat system, plus various WordPress
+                  projects.
+                </p>
+                <ul class="about-info mt-4 px-md-0 px-2">
+                  <li class="d-flex">
+                    <span>Name:</span> <span>Akbar Ali</span>
+                  </li>
+                  <li class="d-flex">
+                    <span>Date of birth:</span> <span>January 01, 2000</span>
+                  </li>
+                  <li class="d-flex">
+                    <span>Address:</span>
+                    <span>Tehsil Barikot, Swat, Pakistan</span>
+                  </li>
+                  <li class="d-flex">
+                    <span>Email:</span> <span>akbaraliuet136@gmail.com</span>
+                  </li>
+                  <li class="d-flex">
+                    <span>Phone:</span> <span>+92 347 6092385</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Counter and Download CV Button -->
+            <div class="counter-wrap ftco-animate d-flex mt-md-3">
+              <div class="text">
+                <p class="mb-4">
+                  <span  class="number" data-number="18">18</span>
+                  <span>Projects completed</span>
+                </p>
+                <p>
+                  <a href="#" class="btn btn-primary py-3 px-3">Download CV</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section_end  -->
+
+     <!-- Rusme section_start -->
+     <section class="ftco-section ftco-no-pb" id="resume-section">
+      <div class="container">
+        <div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Resume</h1>
+            <h2 class="mb-4">Resume</h2>
+            <p>
+              A highly motivated Computer Science student with extensive web development and programming experience. Skilled in HTML, CSS, JavaScript, and WordPress. Completed custom-coded websites including a labor link construction system, school management system, and network chat system, plus various WordPress projects.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Education Column -->
+          <div class="col-md-6">
+            <div class="resume-wrap ftco-animate">
+              <span class="date">2021 - 2025</span>
+              <h2>Bachelor of Computer Science</h2>
+              <span class="position">University of Engineering and Technology, Mardan</span>
+              <p class="mt-4">
+                Currently pursuing a degree in Computer Science with a focus on web development, programming, and software engineering.
+              </p>
+            </div>
+            <div class="resume-wrap ftco-animate">
+              <span class="date">2018 - 2021</span>
+              <h2>FSC (Pre-Engineering)</h2>
+              <span class="position">Govt College Balogram, Swat</span>
+              <p class="mt-4">
+                Completed intermediate studies with a focus on mathematics, physics, and chemistry.
+              </p>
+            </div>
+            <div class="resume-wrap ftco-animate">
+              <span class="date">2016 - 2018</span>
+              <h2>Matriculation</h2>
+              <span class="position">Swat Education Academy, Barikot Swat</span>
+              <p class="mt-4">
+                Completed secondary education with a focus on science and mathematics.
+              </p>
+            </div>
+          </div>
+    
+          <!-- Experience Column -->
+          <div class="col-md-6">
+            <div class="resume-wrap ftco-animate">
+              <span class="date">2022 - Present</span>
+              <h2>Web Developer</h2>
+              <span class="position">Freelance</span>
+              <p class="mt-4">
+                Developed custom websites using HTML, CSS, JavaScript, and WordPress. Worked on projects like a labor link construction system and school management system.
+              </p>
+            </div>
+            <div class="resume-wrap ftco-animate">
+              <span class="date">2021 - 2022</span>
+              <h2>Software Development Intern</h2>
+              <span class="position">Guide Way Software, Peshawar</span>
+              <p class="mt-4">
+                Developed web applications using HTML, CSS, JavaScript, and WordPress. Collaborated with cross-functional teams to design and implement new features.
+              </p>
+            </div>
+            <div class="resume-wrap ftco-animate">
+              <span class="date">2020 - 2021</span>
+              <h2>WordPress Developer</h2>
+              <span class="position">Quantum Academy, Peshawar</span>
+              <p class="mt-4">
+                Designed and developed WordPress websites for local businesses. Provided ongoing support and updates.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-5">
+          <div class="col-md-6 text-center ftco-animate">
+            <p><a href="#" class="btn btn-primary py-4 px-5">Download CV</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- Rusme section_end  -->
+
+     <!-- Services Section Start  -->
+     <section class="ftco-section" id="services-section">
+      <div class="container">
+        <div class="row justify-content-center ">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Services</h1>
+            <h2 class="mb-4">Services</h2>
+            <p>
+              Offering a range of services including web development, web design, and more. <br> Let’s bring your ideas to life!
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Service 1 -->
+          <div class="col-md-4 text-center d-flex ftco-animate">
+            <a href="#" class="services-1">
+              <span class="icon">
+                <i class="fas fa-laptop-code"></i>
+              </span>
+              <div class="desc">
+                <h3 class="mb-5">Web Development</h3>
+              </div>
+            </a>
+          </div>
+          <!-- Service 2 -->
+          <div class="col-md-4 text-center d-flex ftco-animate">
+            <a href="#" class="services-1">
+              <span class="icon">
+                <i class="fas fa-palette"></i>
+              </span>
+              <div class="desc">
+                <h3 class="mb-5">Web Design</h3>
+              </div>
+            </a>
+          </div>
+          <!-- Service 3 -->
+          <div class="col-md-4 text-center d-flex ftco-animate">
+            <a href="#" class="services-1">
+              <span class="icon">
+                <i class="fas fa-mobile-alt"></i>
+              </span>
+              <div class="desc">
+                <h3 class="mb-5">Responsive Design</h3>
+              </div>
+            </a>
+          </div>
+          <!-- Service 4 -->
+          <div class="col-md-4 text-center d-flex ftco-animate">
+            <a href="#" class="services-1">
+              <span class="icon">
+                <i class="fas fa-wordpress"></i>
+              </span>
+              <div class="desc">
+                <h3 class="mb-5">WordPress Development</h3>
+              </div>
+            </a>
+          </div>
+          <!-- Service 5 -->
+          <div class="col-md-4 text-center d-flex ftco-animate">
+            <a href="#" class="services-1">
+              <span class="icon">
+                <i class="fas fa-database"></i>
+              </span>
+              <div class="desc">
+                <h3 class="mb-5">Database Management</h3>
+              </div>
+            </a>
+          </div>
+          <!-- Service 6 -->
+          <div class="col-md-4 text-center d-flex ftco-animate">
+            <a href="#" class="services-1">
+              <span class="icon">
+                <i class="fas fa-tools"></i>
+              </span>
+              <div class="desc">
+                <h3 class="mb-5">Maintenance & Support</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- Services Section End  -->
+
+     <!-- skills section start  -->
+     <section class="ftco-section" id="skills-section">
+      <div class="container">
+        <div class="row justify-content-center pb-5">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Skills</h1>
+            <h2 class="mb-4">My Skills</h2>
+            <p>
+              Here are some of my key skills and expertise. I continuously strive to improve and learn new technologies.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Skill 1 -->
+          <div class="col-md-6 animate-box">
+            <div class="progress-wrap ftco-animate">
+              <h3>HTML5</h3>
+              <div class="progress">
+                <div class="progress-bar color-1" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+                  <span>95%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Skill 2 -->
+          <div class="col-md-6 animate-box">
+            <div class="progress-wrap ftco-animate">
+              <h3>CSS3</h3>
+              <div class="progress">
+                <div class="progress-bar color-2" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Skill 3 -->
+          <div class="col-md-6 animate-box">
+            <div class="progress-wrap ftco-animate">
+              <h3>JavaScript</h3>
+              <div class="progress">
+                <div class="progress-bar color-3" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+                  <span>85%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Skill 4 -->
+          <div class="col-md-6 animate-box">
+            <div class="progress-wrap ftco-animate">
+              <h3>React</h3>
+              <div class="progress">
+                <div class="progress-bar color-4" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Skill 5 -->
+          <div class="col-md-6 animate-box">
+            <div class="progress-wrap ftco-animate">
+              <h3>WordPress</h3>
+              <div class="progress">
+                <div class="progress-bar color-5" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                  <span>75%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Skill 6 -->
+          <div class="col-md-6 animate-box">
+            <div class="progress-wrap ftco-animate">
+              <h3>Python</h3>
+              <div class="progress">
+                <div class="progress-bar color-6" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                  <span>70%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- skills section  end  -->
+
+
+    
+<!-- Projects Section Start -->
+<section class="container-fluid py-5 bg-black " id="projects-section">
+  <div class="text-center mb-5">
+      <h1 class="display-4 fw-bold text-uppercase">Projects</h1>
+      <p class="lead">Here are some of my completed projects showcasing my web development expertise.</p>
+  </div>
+
+  <div class="row g-4">
+      <!-- Project 1 -->
+      <div class="col-md-4">
+          <div class="project-card">
+              <img src="./Image/project_2.jpg"  class="img-fluid" alt="Labor Link">
+              <div class="overlay"></div>
+              <div class="text text-center p-4">
+                  <h3 ><a href="#">Labor Link Construction System</a></h3>
+                  <span>HTML, CSS, JavaScript, PHP</span>
+              </div>
+          </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col-md-8">
+          <div class="project-card">
+              <img src="./Image/project3.png" class="img-fluid" alt="School Management">
+              <div class="overlay"></div>
+              <div class="text text-center p-4">
+                  <h3><a href="#">School Management System</a></h3>
+                  <span>JavaScript, SQL, Bootstrap</span>
+              </div>
+          </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="col-md-8">
+          <div class="project-card">
+              <img src="./Image/project5.jpg" class="img-fluid" alt="Chat System">
+              <div class="overlay"></div>
+              <div class="text text-center p-4">
+                  <h3><a href="#">Network Chat System</a></h3>
+                  <span>JavaScript, WebSockets</span>
+              </div>
+          </div>
+
+          <div class="project-card">
+              <img src="./Image/project4.jpg" class="img-fluid" alt="WordPress">
+              <div class="overlay"></div>
+              <div class="text text-center p-4">
+                  <h3><a href="#">WordPress Projects</a></h3>
+                  <span>Custom Themes & Plugins</span>
+              </div>
+          </div>
+      </div>
+
+      <!-- Project 4 & 5 -->
+      <div class="col-md-4">
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="project-card">
+                      <img src="./Image/project_image1.png" class="img-fluid" alt="Database">
+                      <div class="overlay"></div>
+                      <div class="text text-center p-4">
+                          <h3><a href="#">Database Management</a></h3>
+                          <span>SQL, MongoDB</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-12">
+                  <div class="project-card">
+                      <img src="Image/project_2.jpg" class="img-fluid" alt="Maintenance">
+                      <div class="overlay"></div>
+                      <div class="text text-center p-4">
+                          <h3><a href="#">Maintenance & Support</a></h3>
+                          <span>Ongoing Web Support</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>    
+</section>
+<!-- Projects Section End -->
+
+  <!-- Blog section start  -->
+
+<section class="ftco-section" id="blog-section">
+  <div class="container">
+    <div class="row justify-content-center mb-5 pb-5">
+      <div class="col-md-7 heading-section text-center ftco-animate">
+        <h1 class="big big-2">Blog</h1>
+        <h2 class="mb-4">Our Blog</h2>
+        <p>
+          Stay updated with the latest trends, tips, and insights in web development, design, and technology.
+        </p>
+      </div>
+    </div>
+    <div class="row d-flex">
+      <!-- Blog Post 1 -->
+      <div class="col-md-4 d-flex ftco-animate">
+        <div class="blog-entry justify-content-end">
+          <a href="single.html" class="block-20" ></a>
+          <div class="text mt-3 float-right d-block">
+            <img  style="border-radius: 10px;" class="img-fluid" src="./Image/blog1.jpg" alt="">
+            <div class="d-flex align-items-center mb-3 meta">
+              
+              <p class="mb-0">
+                
+                <span class="mr-2">June 21, 2023</span>
+                <a href="#" class="mr-2">Admin</a>
+                <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+              </p>
+            </div>
+            <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
+            <p>
+              A small river named Duden flows by their place and supplies it with the necessary regelialia.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog Post 2 -->
+      <div class="col-md-4 d-flex ftco-animate">
+        <div class="blog-entry justify-content-end">
+          <a href="single.html" class="block-20"><a>
+          <div class="text mt-3 float-right d-block">
+            <img  style="border-radius: 10px;" class="img-fluid" src="./Image/blog2.jpg" alt="">
+            <div class="d-flex align-items-center mb-3 meta">
+              <p class="mb-0">
+
+                <span class="mr-2">June 21, 2023</span>
+                <a href="#" class="mr-2">Admin</a>
+                <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+              </p>
+            </div>
+            <h3 class="heading"><a href="single.html">The Importance of Responsive Web Design</a></h3>
+            <p>
+              A small river named Duden flows by their place and supplies it with the necessary regelialia.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog Post 3 -->
+      <div class="col-md-4 d-flex ftco-animate">
+        <div class="blog-entry">
+          <a href="single.html" class="block-20"></a>
+          <div class="text mt-3 float-right d-block">
+            <img  style="border-radius: 10px;" class="img-fluid" src="./Image/blog3.jpg" alt="">
+
+            <div class="d-flex align-items-center mb-3 meta">
+              <p class="mb-0">
+                <span class="mr-2">June 21, 2023</span>
+                <a href="#" class="mr-2">Admin</a>
+                <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+              </p>
+            </div>
+            <h3 class="heading"><a href="single.html">Top 10 Tools for Web Developers in 2023</a></h3>
+            <p>
+              A small river named Duden flows by their place and supplies it with the necessary regelialia.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Blog section end  -->
+
+
+
+<!-- Counter Section Start -->
+<section class="container-fluid py-2 text-center bg-black" id="section-counter">
+  <div class="row g-0">
+      <!-- Counter 1 -->
+      <div class="col-md-3">
+          <div class="counter-card">
+              <strong class="number" data-number="5">0</strong>
+              <span>Years of Experience</span>
+          </div>
+      </div>
+
+      <!-- Counter 2 -->
+      <div class="col-md-3">
+          <div class="counter-card">
+              <strong class="number" data-number="20">0</strong>
+              <span>Complete Projects</span>
+          </div>
+      </div>
+
+      <!-- Counter 3 -->
+      <div class="col-md-3">
+          <div class="counter-card">
+              <strong class="number" data-number="100">0</strong>
+              <span>Happy Clients</span>
+          </div>
+      </div>
+
+      <!-- Counter 4 -->
+      <div class="col-md-3">
+          <div class="counter-card">
+              <strong class="number" data-number="300">0</strong>
+              <span>Cups of Coffee</span>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- Counter Section End -->
+
+<!-- Hire Me Section Start -->
+<section class="hireme-section text-center d-flex align-items-center bg-black" style="background-image: url('./Image/project4.jpg');">
+  <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-md-7">
+              <h2>I'm <span>Available</span> for Freelancing</h2>
+              <p>Looking for a skilled developer? I specialize in **front-end development, WordPress, and React.js.**  
+                 Let's build something amazing together!</p>
+              <p class="mb-0">
+                  <a href="mailto:akbaraliuetm136@gmail.com" class="btn btn-primary py-3 px-5">Hire Me</a>
+              </p>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- Hire Me Section End -->
+
+<!-- Contact Section Start -->
+<section class="contact-section py-5 bg-black" id="contact-section">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h1 class="display-4 fw-bold text-uppercase">Contact Me</h1>
+            <p class="lead">Let's work together! Feel free to reach out for projects, collaborations, or inquiries.</p>
+        </div>
+
+        <div class="row text-center mb-5">
+            <!-- Address -->
+            <div class="col-md-3">
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Address</h3>
+                    <p>Tehsil Barikot, Swat, Pakistan</p>
+                </div>
+            </div>
+            <!-- Phone -->
+            <div class="col-md-3">
+                <div class="contact-card">
+                    <i class="fas fa-phone-alt"></i>
+                    <h3>Phone</h3>
+                    <p><a href="tel:+923476092385" style="text-decoration: none; color: white; "  >+92 347 6092385</a></p>
+                </div>
+            </div>
+            <!-- Email -->
+            <div class="col-md-3">
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p><a href="mailto:akbaraliuetm136@gmail.com" style=" text-decoration: none; color: white; " >akbaraliuetm136@gmail.com</a></p>
+                </div>
+            </div>
+            <!-- Website -->
+            <div class="col-md-3">
+                <div class="contact-card">
+                    <i class="fas fa-globe"></i>
+                    <h3>Website</h3>
+                    <p><a href="http://www.labourlink.com" target="_blank" style="text-decoration: none; color: white;  ">www.labourlink.com</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Contact Form -->
+            <div class="col-md-6">
+                <form action="#" class="contact-form p-4">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Your Name">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Your Email">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Subject">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                    </div>
+                    <div class="mb-3 text-center">
+                        <button type="submit" class="btn btn-primary py-2 px-4">Send Message</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Contact Image -->
+            <div class="col-md-6 d-flex align-items-center">
+                <div class="contact-image" >
+                  <img style="width: 100%; height: 470px; border-radius: 10px;" src="./Image/contact2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Contact Section End -->
+
+
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- Custom JS -->
+    <script src="scripts.js"></script>
+  </body>
+</html>
