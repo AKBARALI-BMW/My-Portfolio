@@ -30,8 +30,6 @@ $(document).ready(function () {
   });
 });
 
-
-
 document.addEventListener("DOMContentLoaded", function () {
   let counters = document.querySelectorAll(".number");
   counters.forEach(counter => {
